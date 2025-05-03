@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { gallary } from '../data/gallary';
+import { gallery } from '../data/gallary';
 import { X } from 'lucide-react';
 
 const Gallery: React.FC = () => {
@@ -15,7 +15,7 @@ const Gallery: React.FC = () => {
     document.body.style.overflow = 'auto';
   };
 
-  const selectedMedia = selectedImageId !== null ? gallary.find(m => m.id === selectedImageId) : null;
+  const selectedMedia = selectedImageId !== null ? gallery.find(m => m.id === selectedImageId) : null;
 
   return (
     <section id="gallery" className="py-16 sm:py-20 bg-gradient-to-b from-pink-50 to-white">
@@ -29,7 +29,7 @@ const Gallery: React.FC = () => {
 
         {/* Flex Gallery */}
         <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
-          {gallary.map((memory) => (
+          {gallery.map((memory) => (
             memory.imageUrl && (
               <div
                 key={memory.id}
