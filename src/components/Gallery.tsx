@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { gallery } from '../data/gallary';
+import { gallery } from '../data/gallery';
 import { X } from 'lucide-react';
 
 const Gallery: React.FC = () => {

@@ -29,14 +29,14 @@ const MessageBoard: React.FC = () => {
       try {
         // Replace these with your actual EmailJS credentials
         await emailjs.send(
-          'YOUR_SERVICE_ID',
-          'YOUR_TEMPLATE_ID',
+          'service_dvy4krh',
+          'template_gcriikf',
           {
             message: newMessage.trim(),
-            from_name: 'Your Best Friend',
-            to_name: 'Your Name',
+            from_name: 'Gauri',
+            to_name: 'Kavan',
           },
-          'YOUR_PUBLIC_KEY'
+          'vR1Xk2ZSeRf_GW-HY'
         );
 
         setMessages([...messages, message]);
