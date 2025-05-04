@@ -9,7 +9,7 @@ export const funFacts: FunFact[] = [
   },
   {
     id: 2,
-    text: "You LOVES bowling — even if I win more often (hehe 😂). The fun is in playing together.",
+    text: "You LOVE bowling — even if I win more often (hehe 😂). The fun is in playing together.",
     icon: "gamepad",
   },
   {
@@ -24,12 +24,12 @@ export const funFacts: FunFact[] = [
   },
   {
     id: 5,
-    text: "Your vibe is peaceful, warm, and full of good energy. everyone just feel better around you.",
+    text: "Your vibe is peaceful, warm, and full of good energy. everyone just feels better around you.",
     icon: "sparkles",
   },
   {
     id: 6,
-    text: "You doesn’t just hear me; you understands me. Even the things I don’t say out loud.",
+    text: "You don’t just hear me; you also understand me. Even the things I don’t say out loud.",
     icon: "heart",
   },
 ];
