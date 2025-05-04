@@ -26,7 +26,7 @@ export const memories: Memory[] = [
     id: 3,
     date: '23 October 2023',
     title: 'First Festival Together | Garba Night',
-    description: 'I waited for you so long that evening then you came with your friend Vrushali and then enjoyed that night buy Just a little regret that I couldn’t drop you till the station!',
+    description: 'I waited for you so long that evening then you came with your friend Vrushali and then enjoyed that night but Just a little regret that I couldn’t drop you till the station!',
     imageUrl: 'memory/3rd.jpg',
   },
   {
