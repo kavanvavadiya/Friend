@@ -9,7 +9,7 @@ export const funFacts: FunFact[] = [
   },
   {
     id: 2,
-    text: "YouS LOVES bowling — even if I win more often (hehe 😌). The fun is in playing together.",
+    text: "You LOVES bowling — even if I win more often (hehe 😂). The fun is in playing together.",
     icon: "gamepad",
   },
   {
