@@ -67,6 +67,72 @@ export const gallery: Gallery[] = [
     imageUrl: "gallery/9th.jpg",
     type: "image",
   },
+  {
+    id: 12,
+    title: "Birthday",
+    imageUrl: "gallery/10th.jpg",
+    type: "image",
+  },
+  {
+    id: 13,
+    title: "Birthday",
+    imageUrl: "gallery/11th.jpg",
+    type: "image",
+  },
+  {
+    id: 14,
+    title: "Birthday",
+    imageUrl: "gallery/12th.jpg",
+    type: "image",
+  },
+  {
+    id: 15,
+    title: "Birthday",
+    imageUrl: "gallery/13th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/14th.jpg",
+    type: "image",
+  },
+  {
+    id: 17,
+    title: "Birthday",
+    imageUrl: "gallery/15th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/16th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/17th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/18th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/19th.jpg",
+    type: "image",
+  },
+  {
+    id: 16,
+    title: "Birthday",
+    imageUrl: "gallery/20th.jpg",
+    type: "image",
+  },
 
 ];
 

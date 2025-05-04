@@ -4,32 +4,32 @@ import { FunFact } from '../types';
 export const funFacts: FunFact[] = [
   {
     id: 1,
-    text: "You can recite every line from your favorite movie without missing a beat.",
-    icon: "film",
+    text: "Give you a MacD burger, Domino’s slice, or La Pino'z pizza, and you’ll instantly light up like it’s Diwali.",
+    icon: "pizza",
   },
   {
     id: 2,
-    text: "That time you tried to make pancakes and ended up with 'pancake soup' instead.",
-    icon: "utensils",
+    text: "YouS LOVES bowling — even if I win more often (hehe 😌). The fun is in playing together.",
+    icon: "gamepad",
   },
   {
     id: 3,
-    text: "You have an uncanny ability to find four-leaf clovers without even trying.",
-    icon: "clover",
+    text: "You’re always with me in my happy and sad moments — like a hero who brings comfort and never leaves my side.",
+    icon: "helper",
   },
   {
     id: 4,
-    text: "Your signature dance move that never fails to make everyone laugh.",
-    icon: "music",
+    text: "You’re more than a bestie — you’re a comfort zone, a support system, and my daily dose of joy.",
+    icon: "smile",
   },
   {
     id: 5,
-    text: "You always order the same thing at our favorite restaurant, but always want to try mine.",
-    icon: "coffee",
+    text: "Your vibe is peaceful, warm, and full of good energy. everyone just feel better around you.",
+    icon: "sparkles",
   },
   {
     id: 6,
-    text: "The way you always cry at commercials with dogs in them.",
+    text: "You doesn’t just hear me; you understands me. Even the things I don’t say out loud.",
     icon: "heart",
   },
 ];

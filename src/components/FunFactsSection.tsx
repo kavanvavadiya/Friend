@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { funFacts } from '../data/funFacts';
 import { 
-  Film, Utensils, Clover, Music, Coffee, Heart,
-  Smile, Star, Gift, Sparkles
+  Gamepad2 , HeartHandshake  , Music, Coffee,
+  Smile, Star, Heart , Sparkles, Pizza,
 } from 'lucide-react';
 
 const FunFactsSection: React.FC = () => {
@@ -10,15 +10,15 @@ const FunFactsSection: React.FC = () => {
 
   const getIcon = (iconName: string) => {
     switch (iconName) {
-      case 'film': return <Film className="text-pink-500" size={24} />;
-      case 'utensils': return <Utensils className="text-pink-500" size={24} />;
-      case 'clover': return <Clover className="text-pink-500" size={24} />;
+      case 'pizza': return <Pizza className="text-pink-500" size={24} />;
+      case 'gamepad': return <Gamepad2  className="text-pink-500" size={24} />;
+      case 'helper': return <HeartHandshake  className="text-pink-500" size={24} />;
       case 'music': return <Music className="text-pink-500" size={24} />;
       case 'coffee': return <Coffee className="text-pink-500" size={24} />;
-      case 'heart': return <Heart className="text-pink-500" size={24} fill="currentColor" />;
+      case 'heart': return <Heart   className="text-pink-500" size={24} fill="currentColor" />;
       case 'smile': return <Smile className="text-pink-500" size={24} />;
       case 'star': return <Star className="text-pink-500" size={24} />;
-      case 'gift': return <Gift className="text-pink-500" size={24} />;
+      case 'sparkles': return <Sparkles className="text-pink-500" size={24} />;
       default: return <Sparkles className="text-pink-500" size={24} />;
     }
   };

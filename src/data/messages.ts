@@ -7,11 +7,7 @@ export const messages: Message[] = [
     text: "You've been my rock through everything. Thank you for always being there.",
     author: "Me",
   },
-  {
-    id: 2,
-    text: "Remember when we stayed up all night talking about our dreams? You inspire me to reach for mine every day.",
-    author: "Me",
-  },
+
   {
     id: 3,
     text: "Your smile lights up the darkest days. Never stop smiling!",
